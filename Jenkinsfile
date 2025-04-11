@@ -9,13 +9,13 @@ pipeline {
        stage('build'){
            steps{
                echo 'compile maven app'
-               sh 'maven compile'
+               sh 'mvn compile'
            }
        }
        stage('test'){
            steps{
                echo 'test maven app'
-               sh 'maven clean test'
+               sh 'mvn clean test'
            }
        }
        stage('package'){
