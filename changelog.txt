@@ -1,3 +1,0 @@
-Add text to test SCM polling from Jenkins
-
-Adding a second line of text to generate a new commit hash to trigger a new pipeline run
